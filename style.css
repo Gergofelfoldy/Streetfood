@@ -1,0 +1,149 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-color: dimgray;
+}
+
+.container {
+    background-color: rgb(0, 38, 255);
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #000000;
+    color: white;
+    padding: 20px 0;
+}
+
+header h1 {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+nav li{
+    float: left;
+    margin-left: 40px;
+    padding: 10px;
+}
+nav a{ 
+    text-decoration: none;
+    display: block;
+}
+nav li:hover{
+    background-color: rgb(0, 38, 255);
+    border-radius: 25px;
+}
+nav a:hover{
+    color: #ccc;
+}
+nav ul li ul{
+    display: none;
+    position: absolute;
+    background-color: rgb(0, 38, 255);
+}
+nav ul li li{
+    border-bottom: 2px solid white;
+    margin-bottom:20px;
+}
+nav ul li {
+    margin: 0 20px;
+}
+nav ul li:hover ul{
+    display: block;
+}
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 50px 0;
+}
+
+.intro h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.intro p {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.food-samples {
+    display: flex;
+    justify-content: space-around;
+}
+
+.food-item {
+    text-align: center;
+}
+
+.food-item img {
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+    margin-bottom: 10px;
+}
+
+.menu table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.menu th, .menu td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.menu th {
+    background-color: #f4f4f4;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+
+a:hover {
+    text-decoration: underline;
+}
+
+.google-map iframe {
+    margin: 0 30px;
+    width: 85%;
+    height: 590px;
+}
+.contact-info{
+    text-align: center;
+}
